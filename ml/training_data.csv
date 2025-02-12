@@ -1,0 +1,48 @@
+userId,movieId,rating,status,dateWatched,title,criticScore,userRating,avgFriendRating
+4,6,,watchlist,2025-01-28,Werewolves,47,4.6,
+4,8,,watched,2025-01-27,Absolution,56,5.4,8
+5,6,,watchlist,2025-01-29,Werewolves,47,4.6,
+4,1,,watched,2025-01-27,Kraven the Hunter,26,5.6,
+2,2,,watched,2025-01-27,Sonic the Hedgehog 3,71,7.3,7
+4,10,,watched,2025-01-27,Moana 2,60,7.2,6
+4,4,,watched,2025-01-27,Red One,32,6.5,
+4,12,,watchlist,2025-01-29,Inception,81,9,9
+1,8,9,watched,2025-01-27,Absolution,56,5.4,8
+1,10,6,watched,2025-01-27,Moana 2,60,7.2,6
+1,4,3,watched,2025-01-27,Red One,32,6.5,
+3,8,8,watched,2025-01-27,Absolution,56,5.4,
+3,5,7,watched,2025-01-27,Gladiator II,68,6.8,
+3,10,6,watched,2025-01-27,Moana 2,60,7.2,
+3,7,10,watched,2025-01-27,Flow,92,8.1,
+2,4,2,watched,2025-01-27,Red One,32,6.5,3
+2,1,,watched,2025-01-28,Kraven the Hunter,26,5.6,
+3,1,,watched,2025-01-28,Kraven the Hunter,26,5.6,
+1,3,,watched,2025-01-28,Mufasa: The Lion King,57,6.9,4
+3,12,9,watched,2025-01-29,Inception,81,9,
+1,12,,watched,2025-01-29,Inception,81,9,9
+3,2,7,watched,2025-01-28,Sonic the Hedgehog 3,71,7.3,
+1,7,10,watched,2025-01-28,Flow,92,8.1,10
+1,2,,watched,2025-01-29,Sonic the Hedgehog 3,71,7.3,7
+2,7,9,watched,2025-01-28,Flow,92,8.1,10
+4,7,10,watched,2025-01-27,Flow,92,8.1,10
+3,11,,watchlist,2025-01-29,Rounders,59,7.5,
+5,8,,watched,2025-01-29,Absolution,56,5.4,8.5
+5,9,5,watched,2025-01-28,Venom: The Last Dance,41,6.2,
+5,1,,watched,2025-01-29,Kraven the Hunter,26,5.6,
+5,7,,watched,2025-01-28,Flow,92,8.1,10
+5,5,6,watched,2025-01-29,Gladiator II,68,6.8,7
+5,10,6,watched,2025-01-28,Moana 2,60,7.2,6
+4,5,,watched,2025-01-28,Gladiator II,68,6.8,6.5
+5,11,8,watched,2025-01-28,Rounders,59,7.5,
+4,3,4,watched,2025-01-28,Mufasa: The Lion King,57,6.9,
+4,9,4,watched,2025-01-28,Venom: The Last Dance,41,6.2,5
+4,11,,watched,2025-01-28,Rounders,59,7.5,8
+2,11,,watched,2025-01-29,Rounders,59,7.5,8
+1,11,,watched,2025-01-28,Rounders,59,7.5,
+2,3,6,watched,2025-01-28,Mufasa: The Lion King,57,6.9,4
+5,3,,watched,2025-01-29,Mufasa: The Lion King,57,6.9,
+1,9,,watchlist,2025-01-28,Venom: The Last Dance,41,6.2,4
+5,4,,watchlist,2025-01-28,Red One,32,6.5,3
+5,2,,watchlist,2025-01-28,Sonic the Hedgehog 3,71,7.3,7
+2,8,,watchlist,2025-01-27,Absolution,56,5.4,8.5
+4,2,,watchlist,2025-01-28,Sonic the Hedgehog 3,71,7.3,7
