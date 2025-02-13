@@ -32,7 +32,7 @@ def load_data_from_db():
 
     query_main = """
     SELECT
-       COALESCE(um."userId", '') as "userId",
+       COALESCE(CAST(um."userId" AS text), '') as "userId",
        m.id as "movieId",
        um."rating",
        um."status",
