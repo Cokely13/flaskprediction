@@ -16,19 +16,35 @@ def load_data_from_db():
     conn = psycopg2.connect(db_url)
 
     # Query main data (join user_movies with movies)
+    # query_main = """
+    # SELECT um."userId",
+    #        um."movieId",
+    #        um."rating",
+    #        um."status",
+    #        um."dateWatched",
+    #        um."predictedRating",
+    #        m."criticScore",
+    #        m."userRating"
+    # FROM "user_movies" AS um
+    # JOIN "movies" AS m
+    #      ON um."movieId" = m.id
+    # """
+
     query_main = """
-    SELECT um."userId",
-           um."movieId",
-           um."rating",
-           um."status",
-           um."dateWatched",
-           um."predictedRating",
-           m."criticScore",
-           m."userRating"
-    FROM "user_movies" AS um
-    JOIN "movies" AS m
-         ON um."movieId" = m.id
+    SELECT
+       COALESCE(um."userId", '') as "userId",
+       m.id as "movieId",
+       um."rating",
+       um."status",
+       um."dateWatched",
+       um."predictedRating",
+       m."criticScore",
+       m."userRating"
+    FROM "movies" AS m
+    LEFT JOIN "user_movies" AS um
+     ON um."movieId" = m.id
     """
+
     df_main = pd.read_sql(query_main, conn)
     print("[DEBUG] df_main columns:", df_main.columns.tolist())
     print("[DEBUG] df_main sample:\n", df_main.head(5))
